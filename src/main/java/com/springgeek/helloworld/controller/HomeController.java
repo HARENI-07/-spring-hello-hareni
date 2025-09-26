@@ -1,6 +1,6 @@
 package com.springgeek.helloworld.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -10,4 +10,5 @@ public class HomeController {
   String home() {
     return "Hello from Hareni!";
   }
+  
 }
